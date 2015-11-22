@@ -4,8 +4,8 @@
 
 
 ## Function makeCacheMatrix creates variables representing
-## the matrix and the inverse matrix and stores these variables
-## in the parent environment.
+## the matrix and the inverse matrix.  It stores these variables
+## in an environment that is not the current environment,
 ## It also provides functionality to retrieve and to set both
 ## variables.
 ## The matrix can be accessed by using the set, get, setinv, and
